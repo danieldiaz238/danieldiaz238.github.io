@@ -1,0 +1,110 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-family:"roboto" ; 
+  margin: 0; 
+  padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* inicio */
+.inicio{
+ background: linear-gradient( rgb(9, 178, 122),rgb(9, 178, 122)),
+ url("https://randomuser.me/api/portraits/men/61.jpg"); 
+  background-size: cover;
+  background-position: center center;
+  color: #0d0101;
+}
+.inicio .contenido-seccion{
+max-width: 1000px;
+margin: auto;
+text-align: center;
+padding: 0 10px;
+
+}
+.inicio .contenido-seccion{
+    padding: 40px;
+}
+/* laterales */
+.inicio .contenido-seccion header nav{
+position: fixed;
+margin-left: 150px;
+background-color: #e096e0;
+padding: 15px;
+border-radius: 10px;
+text-align: left;
+z-index: 99;
+
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+
+
+
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: firebrick;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .10s;
+    
+
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+    
+}
+.inicio .contenido-seccion .DATOS h1{
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+/* Experiencia*/
+.Experiencia{
+    background-color: #fff;
+    padding: 10px 0 100px 0;
+    text-align: center;
+
+}
+
+.Experiencia .contenido-seccion .Especial{
+    color: firebrick;
+    font-weight: bold;
+    margin-top: 15px;
+
+}    
+ /* HABILIDADES */
+ .Habilidades{
+    padding: 1px 0 100px 10px ;
+    text-align: center;
+    background: linear-gradient(rgba(113, 31, 31, 0.3), rgba(242, 8, 8, 0.3) );
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+
+ }
+ .Contacto{
+    background-color: rgb(239, 233, 233);
+    padding: 140px 0 100 0;
+    color: #090909;
+    text-align: center;
+
+ }
+
+ .Contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+
+ }
